@@ -1,0 +1,10 @@
+
+
+.nav-link{
+    font-size: large;
+    justify-content: flex-end
+}
+
+.nav-link a {
+    color: #000000 !important;
+}
