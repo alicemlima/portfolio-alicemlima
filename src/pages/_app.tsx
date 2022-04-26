@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return(
     <>
       <Appbar />
-     <Component {...pageProps} />)
+     <Component {...pageProps} />
     </>
   )
 }
