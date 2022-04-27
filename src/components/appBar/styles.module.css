@@ -1,5 +1,6 @@
-
-
+.container {
+    margin-bottom: 1rem;
+}
 .nav-link{
     font-size: large;
     justify-content: flex-end
