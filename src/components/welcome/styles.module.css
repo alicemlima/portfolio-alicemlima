@@ -3,11 +3,31 @@
 }
 
 .buttons {
+    margin-top: 1vw;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-
 .buttons button {
-    margin: 1rem;
+    margin: 2vw;
+    font-family: 'Chivo', sans-serif;
+    font-size: 2vw;
+}
+
+.buttons button:hover {
+   color: #D7E2F5;
+}
+
+.infos h1 {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+.infos h2 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 3vw;
+}
+
+.infos h5 {
+    font-size: 2vw;
 }

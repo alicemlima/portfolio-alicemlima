@@ -1,11 +1,19 @@
 .container {
     margin-bottom: 1rem;
 }
+
 .nav-link{
+    font-family: 'Chivo', sans-serif;
     font-size: large;
     justify-content: flex-end
 }
 
 .nav-link a {
     color: #000000 !important;
+}
+
+.nav-link a:hover {
+    color: #9DA9CE !important;
+    background-color: #000000;
+    border-radius: 0.3rem;
 }

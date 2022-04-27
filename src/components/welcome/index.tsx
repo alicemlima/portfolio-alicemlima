@@ -10,11 +10,8 @@ export default function Welcome() {
     <div>
     <Row >
         <Col className={styles['infos']}>
-            <Image
-                src={desenvolvedora} 
-                alt="My Image"
-            />
-            <h2>Olá! Eu sou a Alice, sou desenvolvedora Web com foco em Front-end, um grande interesse e prazer. Mas também, possuo interesse em outras áreas.</h2>
+            <h1>Olá! Eu sou a Alice</h1>
+            <h2>Desenvolvedora Front-end web e mobile.</h2>
             <h5>Veja mais em "Skills".</h5>
         </Col>
         <Col className={styles['infos']}>
@@ -25,7 +22,7 @@ export default function Welcome() {
         </Col>
     </Row>
     <Col className={styles['buttons']}>
-        <Button variant="outline-dark" size='lg'>Download CV</Button>
+        <Button variant="outline-dark" size='lg' >Download CV</Button>
         <Button variant="outline-dark" size='lg'>Enviar email</Button>
     </Col>
     </div>
