@@ -31,3 +31,25 @@
 .infos h5 {
     font-size: 2vw;
 }
+
+
+@media screen and (max-width: 450px){
+    .apresentation {
+        flex-direction: column;
+    }
+
+    .infos h1 {
+        font-size: 12vw;
+    }
+    
+    .infos h2 {
+        font-size: 6vw;
+    }
+    
+    .infos h5 {
+        font-size: 4vw;
+    }
+    .buttons button {
+        font-size: 4vw;
+    }
+}

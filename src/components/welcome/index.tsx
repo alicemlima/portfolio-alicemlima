@@ -8,7 +8,7 @@ import eu from '../../../public/img/eu.png';
 export default function Welcome() {
   return (
     <div>
-    <Row >
+    <Row className={styles['apresentation']} >
         <Col className={styles['infos']}>
             <h1>Olá! Eu sou a Alice</h1>
             <h2>Desenvolvedora Front-end web e mobile.</h2>
